@@ -9,11 +9,12 @@ h1{
 }
 
 img{
+  margin: auto;
+  height: 100%;
 
 }
 
 img:hover{
-    transform: scale(1.05);
 }
 
 .img-description{
@@ -23,6 +24,7 @@ img:hover{
 
 .container{
     width: 80%;
+    height: 100%;
     color: black;
 }
 
@@ -33,10 +35,6 @@ img:hover{
 .navbar-brand{
     width: 25%;
     margin-top: 30px;
-}
-
-.navbar-toggler{
-    margin-bottom: 10px;
 }
 
 .nav-item{
@@ -68,9 +66,3 @@ img:hover{
 .copyright{
     padding: 20px 0px;
 }
-
-
-
-
-
-
