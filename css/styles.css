@@ -34,6 +34,22 @@ h1{
   font-weight: 400;
 }
 
+.form-control{
+  border-width: 2px;
+}
+
+.lb-caption{
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+.lb-number{
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
 .img-fluid{
   padding: 0 40px;
 }
@@ -81,7 +97,7 @@ h1{
 
 .footer{
   text-align: center;
-  margin-top: 40px
+  margin-top: 50px
 }
 
 .social-icon{
@@ -110,18 +126,34 @@ h1{
   }
 
   .img-description1{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .img-description2{
-    font-size: 1.25rem;
+    font-size: 2rem;
+  }
+
+  .lb-caption{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+  }
+
+  .lb-number{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
   }
 
   .text{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .footer{
+    margin-top: 80px
   }
 
   .social-icon{
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
