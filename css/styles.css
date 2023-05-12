@@ -24,7 +24,7 @@ h1{
 
 .img-description2{
   padding: 0px 0px;
-  margin: 0px 0px 40px;
+  margin: 0px 0px 60px;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -95,6 +95,12 @@ h1{
   font-weight: 600;
 }
 
+.dropdown-item{
+  padding: 0px 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .footer{
   text-align: center;
   margin-top: 50px
@@ -115,6 +121,18 @@ h1{
   font-size: 1rem;
 }
 
+.goog-logo-link {
+  display:none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  color: blue !important;
+}
+
 @media (max-width: 990px){
 
   h1{
@@ -131,6 +149,7 @@ h1{
 
   .img-description2{
     font-size: 2rem;
+    margin: 0px 0px 100px;
   }
 
   .lb-caption{
